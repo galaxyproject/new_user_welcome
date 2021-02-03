@@ -1,0 +1,88 @@
+{   
+    "topic": "Data",
+    "image": "static/images/new_user_welcome/database-solid.svg",
+    "blurb": "How to get datasets into Galaxy, and modify them once they're imported.",
+    "intro": "Obtaining data in Galaxy is simple. You may upload from your machine, retrieve from a url, via ftp, or from any of several \
+            linked databases. Further, you may use shard data by accessing our ‘shared data libraries’ and ‘shared histories’.",
+    "subtopics": [
+        {
+            "title": "Importing via Data Uploader",
+            "header": "Galaxy Data Uploader",
+            "image": "static/images/new_user_welcome/upload-solid.svg",
+            "alt": "Data Uploader",
+            "intro": "Loading in data from your machine or via URL.",
+            "slides": [
+                // [Image, size, alt, text]
+                ["static/images/new_user_welcome/data/data_importer/importer_button.png", "small-img", "Import Button Location", "The upload button can be found on the top of the toolbar to the left of the screen."],
+                ["static/images/new_user_welcome/data/data_importer/importer_icon.png", "mini-img", "Import button symbol", "Click the upload icon to bring up the data importer."],
+                ["static/images/new_user_welcome/data/data_importer/importer_modal.png", "large-img", "Import modal", "The data importer is made up of a central pane, a set of import methods, mechanisms, and metadata inputs."],
+                ["static/images/new_user_welcome/data/data_importer/local_button.png", "small-img", "Import data from local machine", "Click the 'Choose local files' button to select files from your machine."],
+                ["static/images/new_user_welcome/data/data_importer/ftp_button.png", "small-img", "ftp-based upload button", "Click the 'Choose FTP files' button to import files via ftp."],
+                ["static/images/new_user_welcome/data/data_importer/url_button.png", "small-img","Url-based upload button", "Click the 'Paste/Fetch data' button to input a url for a dataset or a text to be uploaded as a file by itself."],
+                ["static/images/new_user_welcome/data/data_importer/paste_field.png", "med-img", "Url paste field", "After clicking the 'Paste/Fetch data' button, paste text or a url in the field to specify data."],
+                ["static/images/new_user_welcome/data/data_importer/pasted_data.png", "med-img", "Pasted data in the url input", "You may also put multiple URLs at once, one per line."],
+                ["static/images/new_user_welcome/data/data_importer/metadata_fields.png", "large-img", "Manually set metadata on upload", "Set the metadata of file type or genome assembly on upload for each file individually or for all at once."],
+                ["static/images/new_user_welcome/data/data_importer/start_button.png", "mini-img", "Start import button", "Click start to begin the data import."],
+                ["static/images/new_user_welcome/data/data_importer/rule_based.png", "large-img", "Rule-based uploader", "Alternatively, the rule-based uploader can be used to upload many files at once, or data from a tabular file."],
+                ["static/images/new_user_welcome/data/data_importer/rule_paste_field.png", "large-img","Pasted data in the rule-based uploader", "Simply paste your tabular data into the rule-based text input and click build."],
+                ["static/images/new_user_welcome/data/data_importer/rule_column.png", "med-img", "Set rules in the left column", "Set rules to be applied to the table in the left column."],
+                ["static/images/new_user_welcome/data/data_importer/set_rules.png", "large-img", "Data appears in the history once imported", "Once your data begins importing, it will appear in the history column to the right. It will appar grey while the import is pending, yellow while it is running, red if there is an error, and green when complete and ready to be used in an analysis."]
+            ]
+        },
+        {
+            "title": "Retrieving Data from Public Databases",
+            "header": "Importing from Public Databases in Galaxy",
+            "image": "static/images/new_user_welcome/cloud-download-alt-solid.svg",
+            "alt": "Database Data",
+            "intro": "Use data from major sources such as UCSC, SRA, or EMBL.",
+            "slides": [
+                ["static/images/new_user_welcome/data/databases/get_data_row.png", "med-img", "Get Data Row", "To retrieve data from a linked database, click on the 'Get Data' row in the toolbar to the left."],
+                ["static/images/new_user_welcome/data/databases/expanded_get_data.png", "med-img", "Expanded Get Data Section", "The expanded get data section shows the full list of integrated databases, accessibly by clicking them here."],
+                ["static/images/new_user_welcome/data/databases/data_tool_form.png", "large-img", "Data tool form", "Many of these tools use a standard Galaxy tool form to access the data. Input the requested data here according to the help sections for each of these tools request files."],
+                ["static/images/new_user_welcome/data/databases/UCSC.png", "large-img", "Database pages", "Other databases, such as the UCSC data browser, are integrated in such a way as to temporarily redirect you directly to their interface."],
+                ["static/images/new_user_welcome/data/databases/UCSC_export.png", "large-img", "Database export", "Once the database's forms have been filled out, you will have the option to export data to galaxy. Click that button to complete the request and return to the Galaxy home page."],
+                ["static/images/new_user_welcome/data/databases/imported_data.png", "med-img", "Imported data", "All data imported in these methods will appear in your history and turn green when fully downloaded and ready to use."]
+            ]
+        },
+        {
+            "title": "Obtaining Shared Data",
+            "header": "Galaxy Shared Data",
+            "image": "static/images/new_user_welcome/slideshare-brands.svg",
+            "alt": "Shared data",
+            "intro": "Find and retrieve data shared between Galaxy users.",
+            "slides": [
+                ["static/images/new_user_welcome/data/shared/masthead.png", "large-img", "Galaxy masthead", "The shared data tab is accessible from the masthead"],
+                ["static/images/new_user_welcome/data/shared/shared_tab.png", "small-img", "Shared data tab", "From the drop down, users have acces to both the data libraries and histories shared across users on the server."],
+                ["static/images/new_user_welcome/data/shared/data_library.png", "med-img", "Data library page", "Clicking the data library row will show you a list of all avalilable shared data libraries."],
+                ["static/images/new_user_welcome/data/shared/library_directory.png", "large-img", "Data library subdirectories", "Many shared data libraries have sub-directories. You can select entire directories to import."],
+                ["static/images/new_user_welcome/data/shared/library_files.png", "large-img", "Data library files", "By clicking on directories, you can choose individual files to import."],
+                ["static/images/new_user_welcome/data/shared/select_files.png", "large-img", "Select shared files to import", "Use the checkboxes to the left to choose which files or directories to import."],
+                ["static/images/new_user_welcome/data/shared/export_library.png", "small-img", "Export to history button", "Click the 'Export to History' button to select the format to retrieve selected data."],
+                ["static/images/new_user_welcome/data/shared/choose_history.png", "large-img", "Choose existing or new history for files.", "Having selected format, either choose a new or existing history into which to import the data and click 'Import'"],
+                ["static/images/new_user_welcome/data/shared/history_view.png", "med-img", "Data appears in the selected history", "Imported data will appear in the specified history."],
+                ["static/images/new_user_welcome/data/shared/published_history.png", "large-img", "Shared history view", "Alternatively, you can access the published histories from the same tab on the masthead."],
+                ["static/images/new_user_welcome/data/shared/published_view.png", "med-img", "Shared history file list", "Selecting a history, all availailable files are available to view and search in the same format as the normal history bar."],
+                ["static/images/new_user_welcome/data/shared/published_import.png", "med-img", "About this history. Click plus to import.", "Information on the history is availalbe in the column on the right. To import this data, click the plus botton at the top right of the column."],
+                ["static/images/new_user_welcome/data/shared/name_history.png", "large-img", "Name history for data import.", "Name the history for the imported files, then click import. As before, the data will appear in the specified history."]
+            ]
+        },
+        {
+            "title": "Data and Metadata in Galaxy.",
+            "header": "Galaxy Data and Metadata",
+            "image": "static/images/new_user_welcome/info-circle-solid.svg",
+            "alt": "Observing Data and Metadata",
+            "intro": "Observing and modifying your data",
+            "slides": [
+                ["static/images/new_user_welcome/data/observe/history_panel.png", "med-img", "Galaxy history panel", "The history panel to the right of the screen shows all datasets and files used in the current analysis. You can create a new history or switch to a previous one using the buttons at the top."],
+                ["static/images/new_user_welcome/data/observe/expanded_dataset.png", "med-img", "Expanded dataset view", "Click a dataset in the history to expand it. Expanded items have a quick view pane for the associated dataset as well as more options on how to interact with the history item."],
+                ["static/images/new_user_welcome/data/observe/view_data.png", "large-img", "View file", "Click the eye to open the file as readible in the center panel."],
+                ["static/images/new_user_welcome/data/observe/data_info.png", "large-img", "File info", "Click the 'i' icon to view information about the dataset and the job/tool/command that created it."],
+                ["static/images/new_user_welcome/data/observe/metadata.png", "large-img", "Metadata page", "Clicking the pencil icon will take you to the metadata page."],
+                ["static/images/new_user_welcome/data/observe/set_metadata.png", "large-img", "Edit metadata", "From the Attributes tab, you can edit metadata such as the genome assembly of the data, and add notes/anotations."],
+                ["static/images/new_user_welcome/data/observe/convert_dataset.png", "large-img", "Data format conversion", "The Convert tab allows you to run basic tools to convert between similar datatypes (i.e. txt and tsv)."],
+                ["static/images/new_user_welcome/data/observe/convert_datatype.png", "large-img", "Data format reset", "On the Datatypes tab, you can manually set the datatype without altering the file, if, for example, the automatic filetype detector failed to set properly (such as a tsv file set as a txt)."]
+            ]
+        
+        }
+    ]
+}

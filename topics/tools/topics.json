@@ -1,0 +1,52 @@
+{
+    "topic": "Tools",
+    "image": "static/images/new_user_welcome/toolbox-solid.svg",
+    "alt": "Tools",
+    "blurb": "Analysis in Galaxy using computational tools.",
+    "intro": "Tools in Galaxy are the same as those one would run locally for a traditional analysis, \
+            save for a couple details. Tools are run in a Galaxy environment, which is identical to \
+            other Galaxy environments, making reproducibility simple. They are also run on Galaxy \
+            servers with appropriate processing power, so researchers don’t have to worry about their \
+            machine’s capabilities.",
+    "subtopics": [
+        {
+            "title": "Standard Tools and the Tool Form",
+            "header": "Tool forms in Galaxy",
+            "image": "static/images/new_user_welcome/tools-solid.svg",
+            "alt": "Tool form",
+            "intro": "Understanding the tool form and runing any standard tool",
+            "slides": [
+                ["static/images/new_user_welcome/tools/tool_form/tool_panel.png", "med-img", "Galaxy toolbar", "Most galaxy tools are accessible via the toolbar to the left of the center panel."],
+                ["static/images/new_user_welcome/tools/tool_form/tool_form.png", "large-img", "Galaxy tool form", "After clicking to expand tool sections, you can select a tool to display its tool form in the center panel. Tool forms have several methods of inputs which will be detailed in following slides."],
+                ["static/images/new_user_welcome/tools/tool_form/data_input.png", "large-img", "Data inputs", "At the top of most tool forms, there is a data input section. To input a file, you can click and drag in input file from the history, or click the drop down and select an input."],
+                ["static/images/new_user_welcome/tools/tool_form/multi_data.png", "mini-img", "Multiple data inputs inputs", "You can also select multiple datasets or a collections using the three buttons to the left."],
+                ["static/images/new_user_welcome/tools/tool_form/string_input.png", "large-img", "String inputs", "Text-based inputs provide text boxes that allow you to input a text string, an integer, or a decimal value depending on the tool."],
+                ["static/images/new_user_welcome/tools/tool_form/select_input.png", "large-img", "Select inputs", "Select inputs allow you to choose from specified options. Sometimes new options will appear on the form depending on which option you choose."],
+                ["static/images/new_user_welcome/tools/tool_form/select_box_input.png", "large-img", "Alternative select inputs", "Select inputs can also be provided in the form of bubble or checkbox menus."],
+                ["static/images/new_user_welcome/tools/tool_form/binary_input.png", "small-img", "Binary inputs", "Binary inputs are shown as buttons and are usually simply on/off parameters in tools. Like with select inputs, more options can appear depending on your choice."],
+                ["static/images/new_user_welcome/tools/tool_form/email_notify.png", "small-img", "Email notifications", "For jobs that can take a long time to run, you can always choose to be notified on completion via email by setting the boolean input at the bottom of the tool form."],
+                ["static/images/new_user_welcome/tools/tool_form/execute.png", "small-img", "Starting a job", "When you are ready, click 'Execute' tp run the tool. Datasets will appear in the history as the job runs, and become green when ready to use in further analysis."]
+            ]
+        },
+        {
+            "title": "Data Vizualization Tools",
+            "header": "Vizualize Data in Galaxy",
+            "image": "static/images/new_user_welcome/chart-bar-solid.svg",
+            "alt": "Vizualization Tools",
+            "intro": "Easily view your data through graphs and other methods.",
+            "slides": [
+                ["static/images/new_user_welcome/tools/viz/masthead.png", "large-img", "Galaxy masthead", "To vizualize you data, first click on the 'Vizualizations' tab on the masthead."],
+                ["static/images/new_user_welcome/tools/viz/viz_dropdown.png", "small-img", "Vizualize dropdown menu", "Next, select 'Create Vizulaization'."],
+                ["static/images/new_user_welcome/tools/viz/viz_menu.png", "large-img", "Vizualizations menu", "Galaxy has dozens of methods of vizualization, from basic graphs to protein structures."],
+                ["static/images/new_user_welcome/tools/viz/viz_search.png", "large-img", "Vizualization options search", "Use the search bar at the top to find the vizualization method for the data to be observe."],
+                ["static/images/new_user_welcome/tools/viz/viz_input.png", "large-img", "Vizualizations input data", "Click the requested method, then find the dataset in the drop down menu and click 'Create Vizualization'."],
+                ["static/images/new_user_welcome/tools/viz/setup_1.png", "small-img", "Setting parameters for the vizualization", "The page that comes up will prompt you to set parameters for the figure before showing you the figure. Set these values in the column to the right."],
+                ["static/images/new_user_welcome/tools/viz/setup_2.png", "small-img", "Setting parameters for the Vizualization cont.", "Also specify which parts of the data are to be observed in the second tab in the right column, when applicable."],
+                ["static/images/new_user_welcome/tools/viz/options_and_run.png", "small-img", "Vizualization actions", "You may create the vizualization initially with the check. Once done, you can save these values with the save icon, take an immediate screenshot to save the image, or edit the paramters and recreate the figure with the check mark."],
+                ["static/images/new_user_welcome/tools/viz/viz_done.png", "large-img", "Completed Vizualizations", ">Once run, your figure will appear in the center panel. You don't have to remain on the page after clicking run to complete the figure"],
+                ["static/images/new_user_welcome/tools/viz/user_dropdown.png", "small-img", "View old Vizualizations", ">If you wish to return and view previous vizualizations, simply go the 'User' tab in the masthead and select 'Vizualizations'."],
+                ["static/images/new_user_welcome/tools/viz/view_old.png", "large-img", "Vizualizations list", "Here, you may click to return to the editor/viewer for any vizualization previously run."]
+            ]
+        }
+    ]
+}

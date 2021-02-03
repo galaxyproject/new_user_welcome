@@ -1,0 +1,72 @@
+{
+    "topic": "Workflows",
+    "image": "static/images/new_user_welcome/project-diagram-solid.svg",
+    "alt": "Workflows",
+    "blurb": "Running full analyses in Galaxy with workflows.",
+    "intro": "Workflows are Galaxy’s chief mechanism for reproducibility. They allow a user to exactly recreate entire analyses they or \
+            apeer have performed previously,  or simply assemble a pipeline from the ground up. Further, these workflows can be \
+            edited to tailor previous analysis parameters to new data.",
+    "subtopics": [
+        {
+            "title": "Extract Workflows from Analyses",
+            "header": "Extracting Workflows in Galaxy",
+            "image": "static/images/new_user_welcome/angle-double-up-solid.svg",
+            "alt": "Workflow Extraction",
+            "intro": "Generate Reproducible Workflows from Your Analysis",
+            "slides":[
+                ["static/images/new_user_welcome/workflows/extract/run_history.png", "med-img", "Existing analysis in a history", "After perorming an analysis, you can create a Galaxy workflow to recreate it on new data."],
+                ["static/images/new_user_welcome/workflows/extract/history_actions.png", "med-img", "History actions", "Click the gear icon on the top right of the history panel to bring up the history actions menu. Click 'Extract Workflow'."],
+                ["static/images/new_user_welcome/workflows/extract/extract_menu.png", "large-img", "Workflow extraction menu", "The workflow extraction page will appear, from which you can customize your workflow and select which items are included/excluded."],
+                ["static/images/new_user_welcome/workflows/extract/deselect.png", "large-img", "Unselect unwanted history items", "To prevent tools/datasets in the history  from being added in the workflow, simply click their associated checkboxes. You can also select/deselect en masse using the 'check/uncheck' all buttons at the top of the page."],
+                ["static/images/new_user_welcome/workflows/extract/name_workflow.png", "med-img", "Name your workflow", "Name your workflow in the textbox at the top of the page."],
+                ["static/images/new_user_welcome/workflows/extract/name_and_create.png", "large-img", "Extract when ready", "When ready, click 'Create Workflow'."],
+                ["static/images/new_user_welcome/workflows/extract/extract_complete.png", "large-img", "Extraction complete popup", "The blue popup will appear to show the workflow ahs been created."],
+                ["static/images/new_user_welcome/workflows/extract/workflow_button.png", "small-img", "Workflow tab", "To access your workflows, click the 'Workflows' tab in the masthead."],
+                ["static/images/new_user_welcome/workflows/extract/workflow_list.png", "large-img", "Workflow list", "You will find all available workflows, including the newly created one, in the rows on the Workflows page. Click their associated play button to run them."]
+            ]
+        },
+        {
+            "title": "Modify Workflows with the Workflow Editor",
+            "header": "Galaxy Workflow Editor",
+            "image": "static/images/new_user_welcome/edit-solid.svg",
+            "alt": "Workflow Editing",
+            "intro": "Edit Workflows for New Data or Analyses",
+            "slides":[
+                ["static/images/new_user_welcome/workflows/editor/masthead.png", "large-img", "Workflow tab on masthead", "Access the workflows menu from the 'Workflows' tab in the masthead."],
+                ["static/images/new_user_welcome/workflows/editor/workflow_menu.png", "large-img", "Workflow selector menu", "Click the arrow next to the workflow to be run. Alternatively, click the 'Create' botton on the top right to build a workflow from scratch."],
+                ["static/images/new_user_welcome/workflows/editor/dropdown.png", "med-img", "Workflow dropdown", "Select 'Edit' to open the workflow editor."],l
+                ["static/images/new_user_welcome/workflows/editor/editor_base.png", "large-img", "Workflow editor", "This is the workflow editor. Here you can see the entirety of your workflow, or zoom in on a specific part using the zoom buttons on the bottom left, and click-and-drag movement controls."],
+                ["static/images/new_user_welcome/workflows/editor/tool_appears.png", "med-img", "Add tool to the workflow", "To add a tool, find it in the toolbar to the left, as you would to run it normally. The tool will appear as a bubble to the left."],
+                ["static/images/new_user_welcome/workflows/editor/move_tool.png", "large-img", "Moving items in the editor", "To move items in the editor, click and drag them to the desired location."],
+                ["static/images/new_user_welcome/workflows/editor/click-and-drag.png", "large-img", "Click and drag connections", "The bubbles next to parameters in steps denote inputs and outputs. To start a connection, click on the output bubble of a step and drag it so the connection line is visible."],
+                ["static/images/new_user_welcome/workflows/editor/attach.png", "large-img", "Attaching tools to workflow", "Attatch the connection to the input of the following step. The output file must be the proper format for the input of the following tool to be connected."],
+                ["static/images/new_user_welcome/workflows/editor/detatch.png", "med-img", "Detatch items in the editor", "To disconnect items in the editor, simply click the input bubble on the step."],
+                ["static/images/new_user_welcome/workflows/editor/delete.png", "med-img", "Delete or duplicate items in the editor", "To delete a step, click the 'X' at the top left. The icon next to that will duplicate the steps's tool bubble."],
+                ["static/images/new_user_welcome/workflows/editor/params.png", "large-img", "Edit tool parameters in the workflow editor", "To change the parameters of a tool here, click the tool's bubble and edit as with a tool form in the menu that appears to the right."],
+                ["static/images/new_user_welcome/workflows/editor/editor_menu.png", "med-img", "Editor menu options", "When ready, you may save the workflow as-is with the save button on the top left. The other buttons here allow you to edit the workflow metadata (i.e. rename it, annotate, etc.) or download the file, or run the workflow immediately."]
+            ]
+        },
+        {
+            "title": "Importing and Running Workflows",
+            "header": "Importing and Running Workflows",
+            "image": "static/images/new_user_welcome/file-import-solid.svg",
+            "alt": "Importing Workflows",
+            "intro": "Obtaining previously-run analyses from yourself or others, and recreating existing analyses.",
+            "slides": [
+                ["static/images/new_user_welcome/workflows/run/masthead.png", "large-img", "Workflow tab on masthead", "Go to the 'Workflow' tab on the masthead to begin."],
+                ["static/images/new_user_welcome/workflows/run/workflow_main.png", "large-img", "Workflow list page", "On this page you can view all available workflows. Click the 'Import' button to add a new workflow from a file or a url."],
+                ["static/images/new_user_welcome/workflows/run/add_main.png", "large-img", "Workflow import page", "The import page gives you multiple methods of adding workflows from outside of the instance. This will focus on the URL-based import and the local file import."],
+                ["static/images/new_user_welcome/workflows/run/file_up.png", "large-img", "Upload workflow from local machine", "Clicking the 'Archived Workflow File' selector allows a .ga file into your instance to run the associated workflow using your local file browser."],
+                ["static/images/new_user_welcome/workflows/run/url_paste.png", "large-img", "Pasted Url", "The 'Archived Workflow URL' textbox allows a remote file to be requested fomr an outside site such as Github or Zenodo."],
+                ["static/images/new_user_welcome/workflows/run/import_button.png", "small-img", "Upload button", "When ready, click 'Import Workflow' to make the file available to run."],
+                ["static/images/new_user_welcome/workflows/run/uploaded_file.png", "large-img", "Uploaded workflow", "Imported workflows will become available immediately on the main workflow page. To run a workflow, click the play button at the right side of its row."],
+                ["static/images/new_user_welcome/workflows/run/not_expanded.png", "large-img", "Workflow run page", "The initial screen will show all inputs for the workflow. You can run with standard parameters here by inputting files and clicking 'Run Workflow'. Alternatively, you can click below to expand and view all tools used in the workflow."],
+                ["static/images/new_user_welcome/workflows/run/expanded.png", "large-img", "Expanded workflow run page", "From the expanded workflow view, you can click on any tool's row to expand it and view the parameters."],
+                ["static/images/new_user_welcome/workflows/run/edits.png", "large-img", "Alter parameters in the run page", "Clicking the pencil icon next to parameters of expanded tools will allow you to change them for this run specifically."],
+                ["static/images/new_user_welcome/workflows/run/run_workflow.png", "small-img", "Run the workflow", "When ready, click 'Run Workflow' to start."],
+                ["static/images/new_user_welcome/workflows/run/invocation.png", "large-img", "Workflow invocation", "The workflow invocation page will appear, showing how far the workflow run has progressed."],
+                ["static/images/new_user_welcome/workflows/run/history.png", "med-img", "Workflow data in histories", "Files will populate the history as they become available. The page may now be exited, and the workflow will continue to run."]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "galaxy_new_user_workflows",
+  "version": "1.0.0",
+  "description": "Set of image files and json used to generate workflow intro carousels on Galaxy new user page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/astrovsky01/new_user_welcome.githttps://github.com/astrovsky01/new_user_welcome.git",
+    "directory": "topics/workflows"
+  },
+  "keywords": [
+    "galaxy",
+    "new_user",
+    "workflows"
+  ],
+  "author": "Alex Ostrovsky",
+  "license": "AFL-3.0"
+}
