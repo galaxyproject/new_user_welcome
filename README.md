@@ -15,24 +15,29 @@ When creating a new topic, the following format is used for the json:
 
 ```
 {
-    topic: topic title,
-    image: image file to be used on the menu for overall topic
-    alt: alt text for overall topic image
-    blurb: quick desciption of topic
-    intro: More in-depth text to be displayed viewing the subtopic options
-    subtopics: [
+    "title": topic title,
+    "image": image file to be used on the menu for overall topic
+    "alt": alt text for overall topic image
+    "blurb": quick desciption of topic
+    "intro": More in-depth text to be displayed viewing the subtopic options
+    "topics": [
         {
-            title: title of subtopic, displayed as card header during the slideshow tour
-            header: title of card leading to slideshow tour
-            image: image file for the card leading to slideshow tour
-            alt: alt text for card image
-            intro: Card text about topic
-            slides: [
-                [image file for slide, image size [mini-img, small-img, med-img, large-img], slide image alt text, slide main text],
+            "title": "Importing via Data Uploader",
+            "header": "Galaxy Data Uploader",
+            "image": "upload-solid.svg",
+            "alt": "Data Uploader",
+            "intro": "Loading in data from your machine or via URL.",
+            "slides": [
+                {
+                    "file": Slide image file, 
+                    "size": image size [mini-img, small-img, med-img, large-img],
+                    "alt": slide image alt text,
+                    "text": slide main text
+                },
                 ...
-            ]
         },
         ...
     ]
-}
+},
+...
 ```
