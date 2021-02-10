@@ -2,7 +2,9 @@ A group of new user welcome topics to be displayed the first time a newly regist
 
 Basic topics include:
     * **Data**
+
     * **Tools**
+    
     * **Workflows**
 
 The standard version of this repo deployed as the npm package: galaxy_new_user_welcome.
