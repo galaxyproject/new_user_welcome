@@ -1,11 +1,11 @@
 A group of new user welcome topics to be displayed the first time a newly registered user logs in, or accessible through the help tab on the Galaxy masthead. This is configurable in the galaxy.yml file.
 
 Basic topics include:
-    * **Data**
+ * **Data**
 
-    * **Tools**
-    
-    * **Workflows**
+ * **Tools**   
+
+ * **Workflows**
 
 The standard version of this repo deployed as the npm package: galaxy_new_user_welcome.
 
