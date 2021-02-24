@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/astrovsky01/new_user_welcome.git",
+    "url": "https://github.com/astrovsky01/new_user_welcome.git"
   },
   "keywords": [
     "galaxy",
-    "new_user",
+    "new_user"
   ],
   "author": "Alex Ostrovsky",
   "license": "AFL-3.0"
