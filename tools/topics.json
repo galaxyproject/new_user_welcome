@@ -1,6 +1,6 @@
 {
     "title": "Tools in Galaxy",
-    "image": "toolbox-solid.svg",
+    "image": "sections/toolbox-solid.svg",
     "alt": "Tools",
     "blurb": "Analysis in Galaxy using computational tools.",
     "intro": "Tools in Galaxy are the same as those one would run locally for a traditional analysis, save for a couple details. Tools are run in a Galaxy environment, which is identical to other Galaxy environments, making reproducibility simple. They are also run on Galaxy servers with appropriate processing power, so researchers don’t have to worry about their machine’s capabilities.",
@@ -8,7 +8,7 @@
         {
             "title": "Standard Tools and the Tool Form",
             "header": "Tool forms in Galaxy",
-            "image": "tools-solid.svg",
+            "image": "sections/tools-solid.svg",
             "alt": "Tool form",
             "intro": "Understanding the tool form and runing any standard tool",
             "slides": [
@@ -77,7 +77,7 @@
         {
             "title": "Data Vizualization Tools",
             "header": "Vizualize Data in Galaxy",
-            "image": "chart-bar-solid.svg",
+            "image": "sections/chart-bar-solid.svg",
             "alt": "Vizualization Tools",
             "intro": "Easily view your data through graphs and other methods.",
             "slides": [

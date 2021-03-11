@@ -1,6 +1,6 @@
 {
     "title": "Workflows in Galaxy",
-    "image": "project-diagram-solid.svg",
+    "image": "sections/project-diagram-solid.svg",
     "alt": "Workflows",
     "blurb": "Running full analyses in Galaxy with workflows.",
     "intro": "Workflows are Galaxy’s chief mechanism for reproducibility. They allow a user to exactly recreate entire analyses they or  appear have performed previously, or simply assemble a pipeline from the ground up. Further, these workflows can be  edited to tailor previous analysis parameters to new data.",
@@ -8,7 +8,7 @@
         {
             "title": "Extract Workflows from Analyses",
             "header": "Extracting Workflows in Galaxy",
-            "image": "angle-double-up-solid.svg",
+            "image": "sections/angle-double-up-solid.svg",
             "alt": "Workflow Extraction",
             "intro": "Generate Reproducible Workflows from Your Analysis",
             "slides":[
@@ -71,7 +71,7 @@
         {
             "title": "Modify Workflows with the Workflow Editor",
             "header": "Galaxy Workflow Editor",
-            "image": "edit-solid.svg",
+            "image": "sections/edit-solid.svg",
             "alt": "Workflow Editing",
             "intro": "Edit Workflows for New Data or Analyses",
             "slides":[
@@ -152,7 +152,7 @@
         {
             "title": "Importing and Running Workflows",
             "header": "Importing and Running Workflows",
-            "image": "file-import-solid.svg",
+            "image": "sections/file-import-solid.svg",
             "alt": "Importing Workflows",
             "intro": "Obtaining previously-run analyses from yourself or others, and recreating existing analyses.",
             "slides": [

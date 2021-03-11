@@ -1,6 +1,6 @@
 {
     "title": "Data in Galaxy",
-    "image": "database-solid.svg",
+    "image": "sections/database-solid.svg",
     "alt": "Data",
     "blurb": "How to get datasets into Galaxy, and modify them once they're imported.",
     "intro": "Obtaining data in Galaxy is simple. You may upload from your machine, retrieve from a url, via ftp, or from any of several linked databases. Further, you may use shard data by accessing our ‘shared data libraries’ and ‘shared histories’.",
@@ -8,7 +8,7 @@
         {
             "title": "Importing via Data Uploader",
             "header": "Galaxy Data Uploader",
-            "image": "upload-solid.svg",
+            "image": "sections/upload-solid.svg",
             "alt": "Data Uploader",
             "intro": "Loading in data from your machine or via URL.",
             "slides": [
@@ -101,7 +101,7 @@
         {
             "title": "Retrieving Data from Public Databases",
             "header": "Importing from Public Databases in Galaxy",
-            "image": "cloud-download-alt-solid.svg",
+            "image": "sections/cloud-download-alt-solid.svg",
             "alt": "Database Data",
             "intro": "Use data from major sources such as UCSC, SRA, or EMBL.",
             "slides": [
@@ -146,7 +146,7 @@
         {
             "title": "Obtaining Shared Data",
             "header": "Galaxy Shared Data",
-            "image": "slideshare-brands.svg",
+            "image": "sections/slideshare-brands.svg",
             "alt": "Shared data",
             "intro": "Find and retrieve data shared between Galaxy users.",
             "slides": [
@@ -233,7 +233,7 @@
         {
             "title": "Data and Metadata in Galaxy.",
             "header": "Galaxy Data and Metadata",
-            "image": "info-circle-solid.svg",
+            "image": "sections/info-circle-solid.svg",
             "alt": "Observing Data and Metadata",
             "intro": "Observing and modifying your data",
             "slides": [
