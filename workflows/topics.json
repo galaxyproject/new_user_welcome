@@ -3,7 +3,7 @@
     "image": "sections/project-diagram-solid.svg",
     "alt": "Workflows",
     "blurb": "Running full analyses in Galaxy with workflows.",
-    "intro": "Workflows are Galaxy’s chief mechanism for reproducibility. They allow a user to exactly recreate entire analyses they or  appear have performed previously, or simply assemble a pipeline from the ground up. Further, these workflows can be  edited to tailor previous analysis parameters to new data.",
+    "intro": "Workflows are Galaxy’s chief mechanism for reproducibility. They allow a user to exactly recreate entire analyses they have performed previously, or simply assemble a pipeline from the ground up. Further, these workflows can be edited to tailor individual tool's parameters in the workflow to new data.",
     "topics": [
         {
             "title": "Extract Workflows from Analyses",
@@ -34,7 +34,7 @@
                     "file": "workflows/images/extract/deselect.png",
                     "size": "large-img",
                     "alt": "Unselect unwanted history items",
-                    "text": "To prevent tools/datasets in the history from being added in the workflow, simply click their associated checkboxes. You can also select/deselect en masse using the 'check/uncheck' all buttons at the top of the page."
+                    "text": "To prevent tools/datasets in the history from being added in the workflow, simply click their associated checkboxes. You can also select/deselect en masse using the 'check/uncheck all' buttons at the top of the page."
                 },
                 {
                     "file": "workflows/images/extract/name_workflow.png",
@@ -52,7 +52,7 @@
                     "file": "workflows/images/extract/extract_complete.png",
                     "size": "large-img",
                     "alt": "Extraction complete popup",
-                    "text": "The blue popup will appear to show the workflow ahs been created."
+                    "text": "The blue popup will appear to show the workflow has been created."
                 },
                 {
                     "file": "workflows/images/extract/workflow_button.png",
@@ -62,7 +62,7 @@
                 },
                 {
                     "file": "workflows/images/extract/workflow_list.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Workflow list",
                     "text": "You will find all available workflows, including the newly created one, in the rows on the Workflows page. Click their associated play button to run them."
                 }
@@ -83,7 +83,7 @@
                 },
                 {
                     "file": "workflows/images/editor/workflow_menu.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Workflow selector menu",
                     "text": "Click the arrow next to the workflow to be run. Alternatively, click the 'Create' botton on the top right to build a workflow from scratch."
                 },
@@ -91,7 +91,7 @@
                     "file": "workflows/images/editor/dropdown.png",
                     "size": "med-img",
                     "alt": "Workflow dropdown",
-                    "text": "Select 'Edit' to open the workflow editor."
+                    "text": "On an existing workflow, select 'Edit' from the drop down menu to open the workflow editor."
                 },
                 {
                     "file": "workflows/images/editor/editor_base.png",
@@ -103,7 +103,7 @@
                     "file": "workflows/images/editor/tool_appears.png",
                     "size": "med-img",
                     "alt": "Add tool to the workflow",
-                    "text": "To add a tool, find it in the toolbar to the left, as you would to run it normally. The tool will appear as a bubble to the left."
+                    "text": "To add a tool, find it in the toolbar to the left, as you would to run it normally. The tool will appear as a bubble to the right."
                 },
                 {
                     "file": "workflows/images/editor/move_tool.png",
@@ -121,7 +121,7 @@
                     "file": "workflows/images/editor/attach.png",
                     "size": "large-img",
                     "alt": "Attaching tools to workflow",
-                    "text": "Attatch the connection to the input of the following step. The output file must be the proper format for the input of the following tool to be connected."
+                    "text": "Attatch the connection to the input bubble of the following step. The output file must be the proper format for the input of the following tool to be connected."
                 },
                 {
                     "file": "workflows/images/editor/detatch.png",
@@ -133,19 +133,19 @@
                     "file": "workflows/images/editor/delete.png",
                     "size": "med-img",
                     "alt": "Delete or duplicate items in the editor",
-                    "text": "To delete a step, click the 'X' at the top left. The icon next to that will duplicate the steps's tool bubble."
+                    "text": "To delete a step, click the 'X' at the top left. The icon next to that will duplicate the steps's tool in the editor."
                 },
                 {
                     "file": "workflows/images/editor/params.png",
                     "size": "large-img",
                     "alt": "Edit tool parameters in the workflow editor",
-                    "text": "To change the parameters of a tool here, click the tool's bubble and edit as with a tool form in the menu that appears to the right."
+                    "text": "To change the parameters of a tool here, click the tool's bubble and edit in the menu that appears to the right in the same way as with a normal tool form."
                 },
                 {
                     "file": "workflows/images/editor/editor_menu.png",
                     "size": "med-img",
                     "alt": "Editor menu options",
-                    "text": "When ready, you may save the workflow as-is with the save button on the top left. The other buttons here allow you to edit the workflow metadata (i.e. rename it, annotate, etc.) or download the file, or run the workflow immediately."
+                    "text": "When ready, you may save the workflow as-is with the save button on the top right. The other buttons here allow you to edit the workflow metadata (i.e. rename it, annotate, etc.), download the workflow file, or run the workflow immediately."
                 }   
             ]
         },
@@ -164,27 +164,27 @@
                 },
                 {
                     "file": "workflows/images/run/workflow_main.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Workflow list page",
                     "text": "On this page you can view all available workflows. Click the 'Import' button to add a new workflow from a file or a url."
                 },
                 {
                     "file": "workflows/images/run/add_main.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Workflow import page",
                     "text": "The import page gives you multiple methods of adding workflows from outside of the instance. This will focus on the URL-based import and the local file import."
                 },
                 {
                     "file": "workflows/images/run/file_up.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Upload workflow from local machine",
                     "text": "Clicking the 'Archived Workflow File' selector allows a .ga file into your instance to run the associated workflow using your local file browser."
                 },
                 {
                     "file": "workflows/images/run/url_paste.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Pasted Url",
-                    "text": "The 'Archived Workflow URL' textbox allows a remote file to be requested fomr an outside site such as Github or Zenodo."
+                    "text": "The 'Archived Workflow URL' textbox allows a remote file to be requested from an outside site such as Github or Zenodo."
                 },
                 {
                     "file": "workflows/images/run/import_button.png",
@@ -194,25 +194,25 @@
                 },
                 {
                     "file": "workflows/images/run/uploaded_file.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Uploaded workflow",
                     "text": "Imported workflows will become available immediately on the main workflow page. To run a workflow, click the play button at the right side of its row."
                 },
                 {
                     "file":  "workflows/images/run/not_expanded.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Workflow run page",
                     "text": "The initial screen will show all inputs for the workflow. You can run with standard parameters here by inputting files and clicking 'Run Workflow'. Alternatively, you can click below to expand and view all tools used in the workflow."
                 },
                 {
                     "file": "workflows/images/run/expanded.png", 
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Expanded workflow run page",
                     "text": "From the expanded workflow view, you can click on any tool's row to expand it and view the parameters."
                 },
                 {
                     "file": "workflows/images/run/edits.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Alter parameters in the run page",
                     "text": "Clicking the pencil icon next to parameters of expanded tools will allow you to change them for this run specifically."
                 },
@@ -224,7 +224,7 @@
                 },
                 {
                     "file": "workflows/images/run/invocation.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Workflow invocation",
                     "text": "The workflow invocation page will appear, showing how far the workflow run has progressed."
                 },

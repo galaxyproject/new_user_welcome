@@ -1,6 +1,6 @@
 {
   "name": "galaxy_new_user_welcome",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Set of image files and json used to generate Galaxy new user page",
   "main": "index.js",
   "scripts": {

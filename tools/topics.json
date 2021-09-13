@@ -22,13 +22,13 @@
                     "file": "tools/images/tool_form/tool_form.png",
                     "size": "large-img",
                     "alt": "Galaxy tool form",
-                    "text": "After clicking to expand tool sections, you can select a tool to display its tool form in the center panel. Tool forms have several methods of inputs which will be detailed in following slides."
+                    "text": "After clicking to expand tool sections, you can select a tool to display its form in the center panel. Tool forms have several methods of inputs which will be detailed in following slides."
                 },
                 {
                     "file": "tools/images/tool_form/data_input.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Data inputs",
-                    "text": "At the top of most tool forms, there is a data input section. To input a file, you can click and drag in input file from the history, or click the drop down and select an input."
+                    "text": "At the top of most tool forms, there is a data input section. To input a file, you can click the drop down and select an input, or click and drag in input file from the history."
                 },
                 {
                     "file": "tools/images/tool_form/multi_data.png",
@@ -38,19 +38,19 @@
                 },
                 {
                     "file": "tools/images/tool_form/string_input.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "String inputs",
-                    "text": "Text-based inputs provide text boxes that allow you to input a text string, an integer, or a decimal value depending on the tool."
+                    "text": "Text-based inputs provide text boxes that allow the input of a text string, an integer, or a decimal value, depending on the tool."
                 },
                 {
                     "file": "tools/images/tool_form/select_input.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Select inputs", 
-                    "text": "Select inputs allow you to choose from specified options. Sometimes new options will appear on the form depending on which option you choose."
+                    "text": "Select inputs allow you to choose from specified options. Sometimes new parameters will appear on the form depending on which option you choose."
                 },
                 {
                     "file": "tools/images/tool_form/select_box_input.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Alternative select inputs",
                     "text": "Select inputs can also be provided in the form of bubble or checkbox menus."
                 },
@@ -58,13 +58,13 @@
                     "file": "tools/images/tool_form/binary_input.png",
                     "size": "small-img",
                     "alt": "Binary inputs",
-                    "text": "Binary inputs are shown as buttons and are usually simply on/off parameters in tools. Like with select inputs, more options can appear depending on your choice."
+                    "text": "Binary inputs are shown as buttons and are usually simply on/off parameters in tools. Like with select inputs, more tool parameters can appear depending on your choice."
                 },
                 {
                     "file": "tools/images/tool_form/email_notify.png",
                     "size": "small-img",
                     "alt": "Email notifications",
-                    "text": "For jobs that can take a long time to run, you can always choose to be notified on completion via email by setting the boolean input at the bottom of the tool form."
+                    "text": "For jobs that might take a long time to run, you can always choose to be notified on completion via email by setting the boolean input at the bottom of the tool form."
                 }, 
                 {
                     "file": "tools/images/tool_form/execute.png",
@@ -91,7 +91,7 @@
                     "file": "tools/images/viz/viz_dropdown.png", 
                     "size": "small-img", 
                     "alt": "Vizualize dropdown menu", 
-                    "text": "Next, select 'Create Vizulaization'."
+                    "text": "Next, select 'Create Vizualization'."
                 },
                 {
                     "file": "tools/images/viz/viz_menu.png",
@@ -103,19 +103,19 @@
                     "file": "tools/images/viz/viz_search.png", 
                     "size": "large-img", 
                     "alt": "Vizualization options search", 
-                    "text": "Use the search bar at the top to find the vizualization method for the data to be observe."
+                    "text": "Use the search bar at the top to find the vizualization method for the data to be observed."
                 }, 
                 {
                     "file": "tools/images/viz/viz_input.png", 
                     "size": "large-img", 
                     "alt": "Vizualizations input data", 
-                    "text": "Click the requested method, then find the dataset in the drop down menu and click 'Create Vizualization'."
+                    "text": "Click the chosen method, select the dataset in the drop down menu, and click 'Create Vizualization'."
                 }, 
                 {
                     "file": "tools/images/viz/setup_1.png", 
                     "size": "small-img", 
                     "alt": "Setting parameters for the vizualization",
-                    "text": "The page that comes up will prompt you to set parameters for the figure before showing you the figure. Set these values in the column to the right."
+                    "text": "The next page will prompt you to set parameters before showing you the figure. Set these values in the column to the right."
                 }, 
                 {
                     "file": "tools/images/viz/setup_2.png",
@@ -127,13 +127,13 @@
                     "file": "tools/images/viz/options_and_run.png", 
                     "size": "small-img", 
                     "alt": "Vizualization actions", 
-                    "text": "You may create the vizualization initially with the check. Once done, you can save these values with the save icon, take an immediate screenshot to save the image, or edit the paramters and recreate the figure with the check mark."
+                    "text": "You may create the vizualization initially with the check mark. Once done, you can save these values with the save icon, take an immediate screenshot to save the image, or edit the paramters and recreate the figure with the check mark."
                 }, 
                 {
                     "file": "tools/images/viz/viz_done.png",
                     "size": "large-img",
                     "alt": "Completed Vizualizations",
-                    "text": "Once run, your figure will appear in the center panel. You don't have to remain on the page after clicking run to complete the figure"
+                    "text": "Once generated, your figure will appear in the center panel. You don't have to remain on the page after clicking run to complete the figure"
                 }, 
                 {
                     "file": "tools/images/viz/user_dropdown.png",
@@ -143,9 +143,9 @@
                 }, 
                 {
                     "file": "tools/images/viz/view_old.png",
-                    "size": "large-img",
+                    "size": "img-fluid",
                     "alt": "Vizualizations list",
-                    "text": "Here, you may click to return to the editor/viewer for any vizualization previously run."
+                    "text": "Here, you may click to return to the editor/viewer for any vizualization that had been run previously."
                 }
             ]
         }
