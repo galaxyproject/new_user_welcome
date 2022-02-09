@@ -85,7 +85,7 @@
                     "file": "tools/images/viz/masthead.png",
                     "size": "large-img",
                     "alt":  "Galaxy masthead",
-                    "text": "To vizualize you data, first click on the 'Vizualizations' tab on the masthead."
+                    "text": "To vizualize your data, first click on the 'Vizualizations' tab on the masthead."
                 }, 
                 {
                     "file": "tools/images/viz/viz_dropdown.png", 
