@@ -15,7 +15,7 @@
     "new_user"
   ],
   "author": "Alex Ostrovsky",
-  "license": "AFL-3.0",
+  "license": "MIT",
   "config": {
     "topics": "data tools workflows"
   }
